@@ -9,10 +9,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            <code>Hi! You have been authenticated from Azure Active Directory.</code>
+            <code>Hi! You have been authenticated from the Azure Active Directory.</code>
           </p>
-          <button className="sign-out">Sign out</button>
-
+          <button className="sign-out" onClick={() => window.authContext.logOut()}>Sign out</button>
         </header>
       </div>
     );
