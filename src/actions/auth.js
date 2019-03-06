@@ -1,4 +1,4 @@
-import { config } from './config'
+import { config, webApiConfig } from './config'
 import AuthContext from 'adal-angular';
 import axios from "axios";
 import { 

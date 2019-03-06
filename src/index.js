@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AuthContext from 'adal-angular';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { config } from './actions/config'
+import {signInUser} from './actions/auth'
+
+window.AuthenticationContext = AuthContext;
+window.authContext = new AuthContext(config);
+
+signInUser()
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
