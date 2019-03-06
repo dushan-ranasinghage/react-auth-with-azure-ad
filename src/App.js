@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import AuthContext from 'adal-angular';
 import logo from './logo.svg';
 import './App.css';
 
