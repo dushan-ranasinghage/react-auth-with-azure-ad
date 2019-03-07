@@ -33,25 +33,25 @@ $ npm install
 ### How to setup the Azure Portal and the Project
   - Create a new active directory in Azure or use an exsisting one as you wish
   - Go to the App Registration and select new application <br/><br/><br/>
-  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/app%20registaration.PNG?raw=true){:height="200px"}
+  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/app%20registaration.PNG?raw=true)
   - Select the newly created app in app registration from going back<br/><br/><br/>
-   ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/SelectApp.PNG?raw=true){:height="200px"}
+   ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/SelectApp.PNG?raw=true)
   - Go to the settings<br/><br/><br/>
-     ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/InkedSetting_LI.jpg?raw=true){:height="200px"}
+     ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/InkedSetting_LI.jpg?raw=true)
   - Set the Home Page URL in properties<br/><br/><br/>
-       ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/HomePageUrl.PNG?raw=true){:height="200px"}
+       ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/HomePageUrl.PNG?raw=true)
   - Set the Redirect URL in Redirect URIs<br/><br/><br/>
-  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/RedirectUrl.PNG?raw=true){:height="200px"}
+  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/RedirectUrl.PNG?raw=true)
   - Check whether the permissions are matching<br/><br/><br/>
-  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/Permissions.PNG?raw=true){:height="200px"}
+  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/Permissions.PNG?raw=true)
   - Go to the Enterprise Application and select the app
   - Go to the properties and check whether enabled Signed in user and other settings<br/><br/><br/>
-  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/EnterpriseAppSettings.PNG?raw=true){:height="200px"}
+  ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/EnterpriseAppSettings.PNG?raw=true)
   - Grant admin consent for default directory in permissions<br/><br/><br/>
-    ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/RequiredPermissionsEnsureInEnterpriseApp.PNG?raw=true){:height="200px"}
+    ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/RequiredPermissionsEnsureInEnterpriseApp.PNG?raw=true)
   - Go to the installed app and open it on a editor which you prefer
   - Open the config file (src/actions/config.js) and change the variables of tenat and clientId<br/><br/><br/>
-    ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/InkedChangeTheCode_LI.jpg?raw=true){:height="200px"}
+    ![alt text](https://github.com/dushanrandika/react-auth-with-azure-ad/blob/master/readmeImages/InkedChangeTheCode_LI.jpg?raw=true)
 
 ### Todos
 
