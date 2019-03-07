@@ -12,8 +12,12 @@ This is a simple react app which has been integrated with the Azure App Services
   - Basic React Knowledge (Just for further development 😊 )
 
 In additionally, you can also:
-  - Get the user image
-  - Get the user details
+  - Get the user image of the outlook from MSGraph API
+  - Get the user details from MSGraph API
+
+##### Tips
+  - The Directory ID and tenant both equal.
+  - clientId is equal to the Application ID.
 
 ### Installation
 
@@ -25,6 +29,10 @@ Install the dependencies and devDependencies and start the server.
 $ cd react-auth-with-azure-ad
 $ npm install
 ```
+
+### How to setup the Azure Portal and the Project
+  - Create a new active directory in Azure or use an exsisting one as you wish
+  - Go to the App Registration and select new application registration
 
 ### Todos
 

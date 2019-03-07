@@ -5,12 +5,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { config } from './actions/config'
-import {signInUser} from './actions/auth'
+import { authentication } from './actions/auth'
 
 window.AuthenticationContext = AuthContext;
 window.authContext = new AuthContext(config);
 
-signInUser()
+authentication()
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

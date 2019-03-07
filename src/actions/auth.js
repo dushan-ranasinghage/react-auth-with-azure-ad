@@ -3,11 +3,11 @@ import AuthContext from 'adal-angular';
 import axios from "axios";
 import { 
     API_URL,
- } from "./type";
+ } from "./types";
 
 window.AuthenticationContext = AuthContext;
 
-export function signInUser() {
+export function authentication() {
   window.authContext.handleWindowCallback();
   if (!window.authContext.isCallback(window.location.hash)) {
     if (!window.authContext.getCachedToken(config.clientId) || !window.authContext.getCachedUser()) {
@@ -19,7 +19,6 @@ export function signInUser() {
                 err.response.config.__isRetryRequest = true;
                 return new Promise((resolve, reject) => {
                     window.authContext.acquireToken(webApiConfig.resourceId, (message, token, msg) => {
-                        console.log("Token",token);
                         axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
                         err.config.headers.Authorization = `Bearer ${token}`;
                         axios(err.config).then(resolve, reject);
