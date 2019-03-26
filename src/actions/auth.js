@@ -12,6 +12,7 @@ export function authentication() {
   if (!window.authContext.isCallback(window.location.hash)) {
     if (!window.authContext.getCachedToken(config.clientId) || !window.authContext.getCachedUser()) {
       window.authContext.login();
+      return true;
     } else {
         axios.defaults.baseURL = API_URL;
         axios.interceptors.response.use(undefined, err => {

@@ -4,6 +4,7 @@ export const config ={
     clientId: 'a3077586-f2b3-48ff-ae98-edbc2ffb834c',
     redirectUri: "http://localhost:3000/", 
     cacheLocation: 'localStorage',
+    postLogoutRedirectUri: "http://localhost:3000/"
 } 
 
 export const webApiConfig = {

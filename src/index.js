@@ -11,7 +11,7 @@ window.AuthenticationContext = AuthContext;
 window.authContext = new AuthContext(config);
 
 authentication()
-
+console.log("Auth",authentication())
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
